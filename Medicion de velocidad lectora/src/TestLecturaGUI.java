@@ -16,6 +16,7 @@ public class TestLecturaGUI extends JFrame {
     private JComboBox<String> comboTextos;
     private JComboBox<Integer> comboTamanoFuente;
     private JComboBox<String> comboFuente; // Nuevo: Selector de tipo de fuente
+    private JCheckBox chkContarPuntuacion; // Checkbox para contar puntuación como palabra
     private JLabel labelTemporizador;
     private Timer timer;
     private int segundosTranscurridos;
@@ -95,12 +96,16 @@ public class TestLecturaGUI extends JFrame {
         labelTemporizador = new JLabel("Tiempo: 00:00", SwingConstants.CENTER);
         labelTemporizador.setFont(new Font("Arial", Font.BOLD, 16));
 
-        // Panel superior con ComboBoxes
+        // Checkbox para contar puntuación
+        chkContarPuntuacion = new JCheckBox("Contar '.' y ',' como palabra");
+
+        // Panel superior con opciones
         JPanel panelSuperior = new JPanel();
-        panelSuperior.setLayout(new GridLayout(1, 3));
+        panelSuperior.setLayout(new GridLayout(1, 4));
         panelSuperior.add(comboTextos);
         panelSuperior.add(comboTamanoFuente);
         panelSuperior.add(comboFuente);
+        panelSuperior.add(chkContarPuntuacion);
 
         // Panel de botones con temporizador
         JPanel panelBotones = new JPanel();
@@ -153,6 +158,18 @@ public class TestLecturaGUI extends JFrame {
         }
     }
 
+    // Obtener las palabras según la opción del checkbox
+    private String[] obtenerPalabras(String texto) {
+        if (chkContarPuntuacion.isSelected()) {
+            texto = texto.replace(".", " . ").replace(",", " , ");
+        }
+        texto = texto.trim();
+        if (texto.isEmpty()) {
+            return new String[0];
+        }
+        return texto.split("\\s+");
+    }
+
     private void iniciarTest() {
         if (timer != null) {
             timer.stop();
@@ -188,7 +205,7 @@ public class TestLecturaGUI extends JFrame {
     }
     
     private void convertirTextoEnBotones() {
-        String[] palabras = textoArea.getText().split("\\s+"); // Separar palabras
+        String[] palabras = obtenerPalabras(textoArea.getText());
         int columnas = 5; // Número de columnas para organizar los botones
         int filas = (int) Math.ceil((double) palabras.length / columnas); // Calcular filas dinámicamente
 
@@ -246,7 +263,7 @@ public class TestLecturaGUI extends JFrame {
         long tiempoTotal = (finTiempo - inicioTiempo) / 1000;
 
         if (tiempoTotal < TIEMPO_LIMITE_SEGUNDOS) {
-            int palabras = textoArea.getText().split("\\s+").length;
+            int palabras = obtenerPalabras(textoArea.getText()).length;
             double ppm = (palabras / (double) tiempoTotal) * 60;
             String resultado = "PPM: " + Math.round(ppm) + " | Tiempo: " + tiempoTotal + " seg | Palabras: " + palabras;
 
