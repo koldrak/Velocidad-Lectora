@@ -1,0 +1,46 @@
+[
+    {
+        "titulo": "El Gato Feliz",
+        "contenido": "El gato saltó, jugó y corrió. Luego durmió bajo el sol."
+    },
+    {
+        "titulo": "El Conejo Travieso",
+        "contenido": "El conejo encontró una zanahoria gigante y brincó emocionado."
+    },
+    {
+        "titulo": "La Carrera",
+        "contenido": "Ana y Luis corrieron por el parque. El viento soplaba fuerte. Luis tropezó, pero Ana lo ayudó a levantarse. Al final, ambos ganaron juntos."
+    },
+    {
+        "titulo": "El Globo Rojo",
+        "contenido": "Tomás soltó su globo rojo. Subió y subió. Todos lo miraban. Pero de repente, un pájaro lo picoteó. ¡Boom! El globo desapareció."
+    },
+    {
+        "titulo": "El Ratón y el Queso",
+        "contenido": "Un ratón encontró queso en la cocina. Lo olfateó, mordió y disfrutó. Pero llegó el gato. ¡Corrió rápido y se escondió bajo la mesa!"
+    },
+    {
+        "titulo": "La Aventura en el Bosque",
+        "contenido": "Pedro caminaba por el bosque. Vio un árbol gigante con un nido. Escuchó pajaritos cantar y encontró un arroyo. Bebió agua fría y descubrió un túnel misterioso. Decidió entrar, pero vio murciélagos. Asustado, corrió y volvió a casa feliz."
+    },
+    {
+        "titulo": "El Dragón Amistoso",
+        "contenido": "Lucas encontró un dragón pequeño en su jardín. Era verde y escupía fuego azul. Jugaron juntos todo el día. Lucas le enseñó a volar. Al atardecer, el dragón voló hacia el cielo dejando una nube brillante. Lucas sonrió y lo saludó desde abajo."
+    },
+    {
+        "titulo": "El Viaje de Marina",
+        "contenido": "Marina subió a un bote con su perro Max. El mar estaba tranquilo. Vieron peces de colores, gaviotas y hasta un delfín saltando. De repente, una gran ola sacudió el bote. Marina sujetó a Max y remó fuerte. Finalmente, llegaron a la orilla y rieron. ¡Qué aventura tan emocionante vivieron juntos!"
+    },
+    {
+        "titulo": "El Cohete Espacial",
+        "contenido": "Mateo soñaba con viajar al espacio. Construyó un cohete de cartón y simuló despegar. Su hermana rió, pero luego se unió. Imaginaban planetas, estrellas y alienígenas amistosos. Jugaban horas enteras hasta que mamá llamó a cenar. En la noche, Mateo miró el cielo y pensó: 'Algún día viajaré de verdad.'"
+    },
+    {
+        "titulo": "La Isla Perdida",
+        "contenido": "Sofía y Carlos encontraron un mapa en la playa. Mostraba una isla perdida con un tesoro escondido. Construyeron una balsa y navegaron. Vieron peces, delfines y una gaviota curiosa. Finalmente, llegaron a la isla. Cavaron en la arena y hallaron un cofre. Lo abrieron y encontraron... ¡una carta antigua! Decía: 'El verdadero tesoro es la aventura'. Sofía y Carlos rieron. Decidieron explorar más, descubriendo cuevas, cascadas y loros parlanchines. Su viaje apenas comenzaba."
+    },
+    {
+        "titulo": "El Castillo Encantado",
+        "contenido": "Sara y Leo encontraron un castillo en el bosque. Entraron sigilosamente y escucharon ruidos extraños. De repente, una puerta se abrió sola. Avanzaron con miedo, pero descubrieron que todo estaba encantado de manera divertida: los cuadros les hacían caras graciosas, las sillas bailaban y los espejos reflejaban disfraces mágicos. En el salón principal, encontraron un libro flotante. Al abrirlo, una voz dijo: 'Bienvenidos al castillo de la risa'. Se miraron y comenzaron a reír. Desde entonces, visitaban el castillo todos los días, porque allí siempre pasaban momentos mágicos e inolvidables."
+    }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "nombre": "anais barra",
+    "curso": "1A",
+    "resultadosLectura": [
+      "10/03/2025 - PPM: 40"
+    ]
+  },
+  {
+    "nombre": "MArgarita WI",
+    "curso": "4°",
+    "resultadosLectura": [
+      "08/03/2025 - PPM: 256",
+      "09/03/2025 - PPM: 2580",
+      "10/03/2025 - PPM: 360"
+    ]
+  },
+  {
+    "nombre": "predro pablo",
+    "curso": "5",
+    "resultadosLectura": [
+      "09/03/2025 - PPM: 220",
+      "08/03/2025 - PPM: 372",
+      "10/03/2025 - PPM: 1080"
+    ]
+  },
+  {
+    "nombre": "pedro pablo",
+    "curso": "6",
+    "resultadosLectura": [
+      "08/03/2025 - PPM: 186",
+      "09/03/2025 - PPM: 240",
+      "10/03/2025 - PPM: 60"
+    ]
+  },
+  {
+    "nombre": "yupicola",
+    "curso": "7F",
+    "resultadosLectura": [
+      "08/03/2025 - PPM: 85",
+      "10/03/2025 - PPM: 36"
+    ]
+  }
+]
