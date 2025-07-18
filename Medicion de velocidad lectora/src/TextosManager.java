@@ -98,7 +98,8 @@ public class TextosManager {
         if (texto == null || texto.trim().isEmpty()) {
             return 0;
         }
-        return texto.split("\\s+").length;
+        texto = texto.replace(".", " . ").replace(",", " , ");
+        return texto.trim().split("\\s+").length;
     }
 
 

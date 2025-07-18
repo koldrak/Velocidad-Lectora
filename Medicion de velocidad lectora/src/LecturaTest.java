@@ -25,7 +25,11 @@ public class LecturaTest {
     }
 
     private static int contarPalabras(String texto) {
-        String[] palabras = texto.split("\\s+");
+        if (texto == null || texto.trim().isEmpty()) {
+            return 0;
+        }
+        texto = texto.replace(".", " . ").replace(",", " , ");
+        String[] palabras = texto.trim().split("\\s+");
         return palabras.length;
     }
 }
